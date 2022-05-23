@@ -3,7 +3,7 @@ from databases import Database
 from sqlalchemy.orm import relationship
 
 
-DATABASE_URL = "mysql://root:Luffy123@localhost/Company"
+DATABASE_URL = "mysql://root:password@localhost/Company"
 
 database = Database(DATABASE_URL)
 
