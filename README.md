@@ -22,4 +22,7 @@ user ---> To create admin
 
 4. In order to get the bearer token go to the api link: http://127.0.0.1:8000/docs#/Auth/login_login__post
    and enter the admin username and passward. This will generate a JWT token, which you can then use to authenticate your queries.
+   
+Alternatively you can use Swagger UI instead of Postman for the same API's as it is much more organized.
+Link to Swagger UI: http://127.0.0.1:8000/docs
 
