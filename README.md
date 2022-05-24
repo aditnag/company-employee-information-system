@@ -26,3 +26,4 @@ user ---> To create admin
 Alternatively you can use Swagger UI instead of Postman for the same API's as it is much more organized.
 Link to Swagger UI: http://127.0.0.1:8000/docs
 
+5. In db.py configure the db url as per your credentials.
