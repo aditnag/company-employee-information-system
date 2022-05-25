@@ -101,6 +101,6 @@ async def find_manager(e_id: int):
 async def find_hierarchy(e_id: int, current_user: UserSchema = Depends(get_current_user)):
     subordinates = await find_subordinates(e_id=e_id)
     manager = await find_manager(e_id=e_id)
-    # if {**manager} == None:
-    #     return {f"This person is the head of the company"}
+    if not manager:
+        return {"manger": "Head of the company"}
     return subordinates, {**manager}
