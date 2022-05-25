@@ -27,3 +27,4 @@ Alternatively you can use Swagger UI instead of Postman for the same API's as it
 Link to Swagger UI: http://127.0.0.1:8000/docs
 
 5. In db.py configure the db url as per your credentials.
+6. For the table EmployeeInfo, if any record has manager_id 0 thenthat means that emp_id is the head of the company.
